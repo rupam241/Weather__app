@@ -1,0 +1,87 @@
+
+
+.humidity{
+    position: absolute;
+    
+    width: 12%;
+    height: 20vh;
+    top: 35%;
+    left: 31%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+}
+.pressure{
+    position: absolute;
+    
+    width: 12%;
+    height: 20vh;
+    top: 35%;
+    left: 46%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+}
+.visibilty{
+    position: absolute;
+    
+    width: 12%;
+    height: 20vh;
+    top: 35%;
+    left: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+}
+.feelsLike{
+    position: absolute;
+    
+    width: 12%;
+    height: 20vh;
+    top: 35%;
+    left: 75%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+}
+.humidity p{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+.humidity .dataHumidity{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 2rem;
+}
+.pressure p{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+.pressure .dataPressure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+.visibilty p{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+.visibilty .datavisibilty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+.feelsLike p{
+    padding: 1rem;
+    font-size: 1.8rem; 
+}
+.feelsLike .datafeelsLike{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+}

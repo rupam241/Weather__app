@@ -1,0 +1,48 @@
+.dailyUpdates{
+
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    width: 60%;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+.airQuality{
+    width: 50%;
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 1rem;
+    border-radius: 1rem;
+   
+
+}
+.dailyData .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    
+   
+}
+.title h5{
+    margin-top: 1.4rem;
+}
+.title p{
+    margin-top: 1.4rem;
+}
+.data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-right: 1rem;
+}
+.data h5{
+    font-size: 1rem;
+}
+.data p{
+    font-size: 1.5rem;
+}

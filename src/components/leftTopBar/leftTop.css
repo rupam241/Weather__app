@@ -1,0 +1,36 @@
+.leftTop{
+    width: 23%;
+    height: 33vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:2rem;
+    border-radius: 1rem;
+   
+}
+.item{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    
+    
+}
+.item p{
+    font-size: 2rem;
+  
+}
+.temp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.temp h2{
+    font-size: 3rem;
+}
+.item span{
+    font-size: 1.3rem;
+   
+}
+hr{
+    border: 1px solid #e2dddd;
+    margin-top: 1rem;
+    
+}

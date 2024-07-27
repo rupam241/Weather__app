@@ -1,0 +1,12 @@
+.current{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+    width: 10%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.fiveDaysForeCast {
+    width: 23%;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    padding: 1.6rem;
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Arrange children vertically */
+    gap: 1rem; /* Add spacing between days */
+    margin: 0;
+}
+
+.day1, .day2, .day3, .day4, .day5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between elements */
+    border-bottom: 1px solid #ccc; /* Add a separator line for clarity */
+    padding: 0.5rem 0; /* Add padding for better spacing */
+}
+
+.day1:last-child, .day2:last-child, .day3:last-child, .day4:last-child, .day5:last-child {
+    border-bottom: none; /* Remove border from the last day */
+}
+
+.day1 span, .day2 span, .day3 span, .day4 span, .day5 span {
+    font-size: 1.5rem;
+    margin-left: 1rem; /* Adjust spacing between elements */
+}
+
+.day1 p, .day2 p, .day3 p, .day4 p, .day5 p {
+    font-size: 1.5rem;
+    margin-left: 1rem; /* Adjust spacing between elements */
+}
